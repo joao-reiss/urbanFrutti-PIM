@@ -1,0 +1,7 @@
+{
+  "name": "urbanFruttiApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

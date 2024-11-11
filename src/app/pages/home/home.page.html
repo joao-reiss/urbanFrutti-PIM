@@ -1,0 +1,115 @@
+<ion-content>
+<ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <div class="logoAli">
+          <ion-img class="logo"
+          src="../../assets/logo-fazenda.png"
+          alt="logo-fazenda">
+        </ion-img>
+      </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="txtAli">
+          <ion-text>
+            <h1>
+              Faça o login
+            </h1>
+            <p>
+              e continue as suas compras.
+            </p>
+          </ion-text>
+        </div>
+      </ion-col>
+    </ion-row>
+    <form [formGroup]="fGroup">
+            <ion-row>
+              <ion-col>
+                <div class="inputAli">
+                <ion-item lines="none">
+                  <ion-img class="icons"
+                  src="../../../assets/mail.png"
+                  alt="emailIcon">
+                </ion-img>
+                  <ion-input type="text" formControlName="email" placeholder="Email"></ion-input>
+                </ion-item>
+                </div>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <div class="inputAli">
+                <ion-item lines="none">
+                  <ion-img color="transparent" class="icons"
+                  src="../../../assets/padlock.png"
+                  alt="passwordIcon">
+                </ion-img>
+                  <ion-input type="password" formControlName="password" placeholder="Senha"></ion-input>
+                </ion-item>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+            <ion-row>
+              <ion-col>
+                <div class="fStyle">
+                    <ion-checkbox labelPlacement="end">
+                      <ion-text>
+                        <p>
+                          Lembrar-me
+                        </p>
+                      </ion-text>
+                    </ion-checkbox>
+                </div>
+              </ion-col>
+              <ion-col>
+                    <div class="fStyle">
+                    <ion-text>
+                      <h3>
+                        <a [routerLink]="['/esqueci-senha']"> Esqueceu a senha?</a>
+                      </h3>
+                    </ion-text>
+                    </div>
+              </ion-col>
+            </ion-row>
+
+
+            <ion-row>
+              <ion-col>
+                <div class="btn_row">
+                <ion-button (click)="login()" class="btnAcess">Acessar</ion-button>
+                </div>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <div class="subR">
+                  <ion-text>
+                    <p>
+                      Não tenho conta
+                    </p>
+                  </ion-text>
+                </div>
+              </ion-col>
+            </ion-row>
+
+
+
+            <ion-row>
+              <ion-col>
+                <div class="btn_row">
+                  <ion-button class="btnCreate" (click)="goToCadastro()">Criar uma conta</ion-button>
+                  </div>
+              </ion-col>
+            </ion-row>
+          </form>
+
+</ion-grid>
+</ion-content>

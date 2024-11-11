@@ -1,0 +1,67 @@
+<ion-content>
+  <ion-grid>
+
+      <ion-row>
+        <ion-col>
+          <div class="arrow" (click)="return()">
+            <ion-img
+            src="../../../assets/arrow-right.png" alt="arrow-left"
+            ></ion-img>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="logoAli">
+            <ion-img class="logo"
+            src="../../assets/logo-fazenda.png"
+            alt="logo-fazenda">
+          </ion-img>
+        </div>
+        </ion-col>
+      </ion-row>
+
+        <!--Input nome completo-->
+      <ion-row>
+        <ion-col>
+          <div class="txtAli3">
+            <ion-text>
+              <h1>
+               Assunto
+              </h1>
+            </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="inputAli">
+          <ion-item lines="none">
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="inputAli">
+          <ion-item lines="none">
+            <ion-textarea label="Mensagem" labelPlacement="floating" fill="outline" placeholder="Enter text"></ion-textarea>
+          </ion-item>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+          <!--Botão de Confirmar!-->
+      <ion-row>
+        <ion-col>
+          <div class="btn_row">
+          <ion-button class="btnSend">Enviar</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+  </ion-grid>
+  </ion-content>

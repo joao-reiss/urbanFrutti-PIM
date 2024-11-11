@@ -1,0 +1,82 @@
+.logoAli{
+
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  ion-img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+ion-menu-button{
+  color: black;
+}
+
+.sectImg{
+  object-fit:cover;
+  max-width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 70px;
+  min-height: 70px;
+  padding: 25px 25px;
+
+}
+
+.userImg{
+  width: 75px;
+  height: 75px;
+}
+
+.close{
+  text-align: start;
+  max-width: 45px;
+  min-width: 45px;
+  max-height: 45px;
+  min-height: 45px;
+}
+
+.alignment{
+  margin-top: 110px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ion-text{
+  text-align: center;
+}
+.iconMenu{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  filter: grayscale(10);
+  color: beige !important;
+}
+.btnAccount{
+  color:white;
+  font-size: 1em;
+  --background: rgba(17, 152, 230, 1);
+  --background-hover: green;
+  //--background-focused: white;
+  --background-activated: white;
+  --ripple-color: deeppink;
+
+  width: 250px;
+  text-decoration: none;
+  --border-radius: none;
+}
+
+
+.btnDisconnect{
+  color:black;
+  font-size: 1em;
+  --background: grey;
+  --border-radius: none;
+  border: solid 1px black;
+  width: 250px;
+}

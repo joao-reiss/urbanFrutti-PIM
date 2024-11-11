@@ -1,0 +1,16 @@
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button (click)="selectTab('home')" tab="tab1" href="/tabs/tab1">
+      <ion-icon [name]="selectedTab === 'home' ? 'home' : 'home-outline'"></ion-icon>
+      <ion-label>Início</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="selectTab('cart')" tab="tab2" href="/tabs/tab2">
+      <ion-icon [name]="selectedTab === 'cart' ? 'cart' : 'cart-outline'"></ion-icon>
+      <ion-label>Carrinho</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+
+</ion-tabs>

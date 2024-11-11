@@ -1,0 +1,128 @@
+ion-content{
+  --background:#D9D9D9;
+}
+
+.logoAli{
+
+  align-items: end;
+  display: flex;
+  justify-content: end;
+}
+
+.txtAli{
+  padding: 0;
+  text-align: center;
+  margin-right: 230px;
+  h1{
+    font-size: 1em;
+    font-weight: bolder;
+    margin-bottom: -8px;
+  }
+}
+.txtAli2{
+  padding: 0;
+  text-align: center;
+  margin-left: -120px;
+  h1{
+    font-size: 1em;
+    font-weight: bolder;
+    margin-bottom: -8px;
+  }
+}
+
+.txtAli3{
+  padding: 0;
+  text-align: center;
+  margin-left: -160px;
+  h1{
+    font-size: 1em;
+    font-weight: bolder;
+    margin-bottom: -8px;
+  }
+}
+
+.logo{
+  max-width: 320px;
+}
+
+ion-input{
+  --background:white;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+ion-item{
+  width: 300px;
+  border: solid black 1.5px;
+  min-height:30px ;
+  max-height: 300px;
+  outline: none !important;
+  border-radius: 5px;
+
+  ion-img{
+    background: white !important;
+    opacity: 0.5;
+  }
+}
+
+.inputAli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons{
+  padding-right: 10px;
+  max-width: 35px;
+}
+
+
+.fStyle{
+  text-align: end;
+  margin-right:25px;
+  ion-text{
+    p{
+      font-weight: bold;
+      text-align: end;
+    }
+    h3{
+      a{
+        color: black;
+      }
+      font-size: 1em;
+      text-align: start;
+      text-decoration: none;
+
+    }
+  }
+}
+
+.btn_row{
+  margin-top: 10px;
+  text-align: center;
+ ion-button{
+  font-weight: bold;
+  font-size: 1.2em;
+  width:300px;
+  height: 55px;
+  text-transform: none;
+  --border-radius: 5px;
+  text-decoration: none;
+  --color-focused:none;
+  outline: 0;
+
+
+ }
+ .btnSend{
+  --border-radius: 5px;
+  --background: #3BB1F5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+}
+
+.arrow{
+  margin: 10px 10px;
+  transform: scaleX(-1);
+  max-width: 30px;
+}

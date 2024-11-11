@@ -1,0 +1,63 @@
+<ion-content>
+  <ion-grid>
+
+      <ion-row>
+        <ion-col>
+          <div class="logoAli">
+            <ion-img class="logo"
+            src="../../assets/logo-fazenda.png"
+            alt="logo-fazenda">
+          </ion-img>
+        </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="txtAli">
+            <ion-text>
+              <h1>
+                Digite seu email abaixo
+              </h1>
+            </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="inputAli">
+          <ion-item lines="none">
+            <ion-img class="icons"
+            src="../../../assets/mail.png"
+            alt="emailIcon">
+          </ion-img>
+            <ion-input type="text" placeholder="Email"></ion-input>
+          </ion-item>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row">
+          <ion-button class="btnSend">Enviar</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row">
+            <ion-button [routerLink]="['/home']" class="btnCancel">Cancelar</ion-button>
+            </div>
+        </ion-col>
+      </ion-row>
+
+  </ion-grid>
+  </ion-content>

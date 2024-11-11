@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './conta.page.html',
   styleUrls: ['./conta.page.scss'],
 })
-export class ContaPage implements OnInit {
+export class ContaPage {
 
-  constructor() { }
+  constructor( private router:Router) { }
 
-  ngOnInit() {
-  }
+    return()
+    {
+      this.router.navigateByUrl('/tabs/tab1')
+    }
+
 
 }

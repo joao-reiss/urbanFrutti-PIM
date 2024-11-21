@@ -10,7 +10,7 @@ export class SuportePage{
 
   constructor(private router: Router) { }
 
-  return(){
+   return(){
     this.router.navigateByUrl('/tabs/tab1');
   }
 }

@@ -10,6 +10,15 @@ export class ContaPage {
 
   constructor( private router:Router) { }
 
+  User: any =
+    {
+    "nome": "Tyrell Wellick",
+    "email": "tyrell_wellick@hotmail.com",
+    "celular": "(13) 99965-5432",
+    };
+
+
+
     return()
     {
       this.router.navigateByUrl('/tabs/tab1')

@@ -39,6 +39,14 @@ const routes: Routes = [
   {
     path: 'enviar-sms',
     loadChildren: () => import('./pages/enviar-sms/enviar-sms.module').then( m => m.EnviarSmsPageModule)
+  },
+  {
+    path: 'digitar-numero',
+    loadChildren: () => import('./pages/digitar-numero/digitar-numero.module').then( m => m.DigitarNumeroPageModule)
+  },
+  {
+    path: 'confirmar-novo-numero',
+    loadChildren: () => import('./pages/confirmar-novo-numero/confirmar-novo-numero.module').then( m => m.ConfirmarNovoNumeroPageModule)
   }
 
 ];

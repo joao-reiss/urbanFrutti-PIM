@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './enviar-sms.page.html',
   styleUrls: ['./enviar-sms.page.scss'],
 })
-export class EnviarSmsPage implements OnInit {
+export class EnviarSmsPage  {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
+  changeNumber(){
+    this.router.navigateByUrl('/digitar-numero')
   }
-
 }

@@ -13,7 +13,7 @@
           <ion-col>
             <div class="alignment">
               <section class="sectImg">
-                <ion-img class="UserImg" src="../../../assets/user.png">
+                <ion-img class="userImg" src="../../../assets/user.png">
                 </ion-img>
               </section>
             </div>
@@ -22,45 +22,54 @@
         <ion-row>
           <ion-col>
           <ion-text>
-            <h4>
+            <h4 class="username">
               {{username}}
             </h4>
           </ion-text>
         </ion-col>
         </ion-row>
         <!--Botão Configurações de conta-->
+      <div class="line1">
         <ion-row>
-          <ion-col>
-            <div class="btn">
-            <ion-button (click)="accountSettings()" class="btnAccount">
-              <ion-img class="iconMenu" src="../../../assets/gear.png"></ion-img>
+          <ion-col size="2">
+            <ion-img class="iconMenu" src="../../../assets/gear.png"></ion-img>
+          </ion-col>
+          <ion-col size="10">
+            <div class="btn" (click)="accountSettings()" >
+            <div class="btnAccount">
               Configurações da Conta
-            </ion-button>
-          </div>
+            </div>
+            </div>
           </ion-col>
         </ion-row>
+      </div>
         <!--Botão Suporte-->
+      <div class="line2">
         <ion-row>
-          <ion-col>
-            <div class="btn">
-            <ion-button (click)="contactUs()" class="btnAccount">
-              <ion-img class="iconMenu" src="../../../assets/call-center-operator.png"></ion-img>
+          <ion-col size="2">
+            <ion-img class="iconMenu" src="../../../assets/call-center-operator.png"></ion-img>
+          </ion-col>
+          <ion-col size="10">
+            <div (click)="contactUs()" class="btnAccount">
               Suporte ao usúario
-            </ion-button>
-          </div>
+            </div>
           </ion-col>
         </ion-row>
+      </div>
         <!--Botão Encerrar sessão-->
+      <div class="aliLogOut">
         <ion-row>
-          <ion-col>
-            <div class="btn">
-            <ion-button (click)="logOut()" class="btnDisconnect">
-              <ion-img class="iconMenu" src="../../../assets/exit.png"></ion-img>
+          <ion-col size="2">
+            <ion-img class="iconMenu" src="../../../assets/exit.png"></ion-img>
+          </ion-col>
+          <ion-col size="10">
+            <div (click)="logOut()" class="btnDisconnect">
               Encerrar sessão
-            </ion-button>
           </div>
           </ion-col>
         </ion-row>
+      </div>
+
     </div>
   </ion-content>
 </ion-menu>
@@ -81,5 +90,5 @@
         </div>
     </ion-toolbar>
   </ion-header>
-  <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu.</ion-content>
+  <ion-content> Tap the button in the toolbar to open the menu.</ion-content>
 </div>

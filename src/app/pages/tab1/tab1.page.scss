@@ -8,28 +8,30 @@
     max-height: 150px;
   }
 }
-
+.ion-padding{
+  --background: #D9D9D9;
+}
 ion-menu-button{
   color: black;
 }
 
 .sectImg{
+  background-color:white;
   object-fit:cover;
-  max-width: 150px;
-  height: 150px;
-  border: 1px solid black;
+  height: 100px;
   border-radius: 100%;
   max-width: 150px;
   max-height: 150px;
-  min-width: 70px;
-  min-height: 70px;
-  padding: 25px 25px;
+  min-width: 100px;
+  min-height: 100px;
 
 }
 
 .userImg{
-  width: 75px;
-  height: 75px;
+  padding: 25px;
+  max-width: 105px;
+  max-height:105px;
+
 }
 
 .close{
@@ -40,8 +42,11 @@ ion-menu-button{
   min-height: 45px;
 }
 
+.btn{
+
+}
 .alignment{
-  margin-top: 110px;
+  margin-top: 30px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -51,21 +56,28 @@ ion-text{
   text-align: center;
 }
 .iconMenu{
-  width: 30px;
-  height: 30px;
-  padding-right: 10px;
+  width: 25px;
+  height: 25px;
   filter: grayscale(10);
   color: beige !important;
 }
-.btnAccount{
-  color:white;
-  font-size: 1em;
-  --background: rgba(17, 152, 230, 1);
-  --background-hover: green;
-  //--background-focused: white;
-  --background-activated: white;
-  --ripple-color: deeppink;
 
+.line1{
+padding-top: 20px;
+padding-bottom: 20px;
+ border-bottom: 4px solid #CCCCCC;
+ border-top:4px solid #CCCCCC;
+}
+
+
+.line2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+   border-bottom: 4px solid #CCCCCC;
+  }
+.btnAccount{
+  font-weight: bold;
+  font-size: 1.2em;
   width: 250px;
   text-decoration: none;
   --border-radius: none;
@@ -74,9 +86,18 @@ ion-text{
 
 .btnDisconnect{
   color:black;
-  font-size: 1em;
+  font-size: 1.2em;
   --background: grey;
   --border-radius: none;
-  border: solid 1px black;
+  font-weight: bold;
   width: 250px;
+}
+
+.aliLogOut{
+  margin-top: 120%;
+}
+
+.username{
+  font-weight: bold;
+  margin-bottom: 20px;
 }

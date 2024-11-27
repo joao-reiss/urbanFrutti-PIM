@@ -32,8 +32,8 @@ ion-content{
 
 .txtAli3{
   padding: 0;
-  text-align: center;
-  margin-left: -160px;
+  text-align: start;
+  margin-left:55px;
   h1{
     font-size: 1em;
     font-weight: bolder;
@@ -126,3 +126,28 @@ ion-item{
   transform: scaleX(-1);
   max-width: 30px;
 }
+
+.head{
+  background-color: #CACACA;
+}
+
+ion-textarea{
+  height: 150px;
+  -placeholder-style: italic;
+ }
+
+ ion-textarea::placeholder {
+ font-style: italic;
+}
+
+.pageTitle{
+  font-size: 2em;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+

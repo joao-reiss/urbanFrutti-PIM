@@ -10,6 +10,7 @@ export class ContaPage {
 
   constructor( private router:Router) { }
 
+
   User: any =
     {
     "nome": "Tyrell Wellick",

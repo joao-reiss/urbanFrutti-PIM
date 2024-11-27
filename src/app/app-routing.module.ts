@@ -31,6 +31,14 @@ const routes: Routes = [
   {
     path: 'conta',
     loadChildren: () => import('./pages/conta/conta.module').then( m => m.ContaPageModule)
+  },
+  {
+    path: 'altercao-senha',
+    loadChildren: () => import('./pages/altercao-senha/altercao-senha.module').then( m => m.AltercaoSenhaPageModule)
+  },
+  {
+    path: 'enviar-sms',
+    loadChildren: () => import('./pages/enviar-sms/enviar-sms.module').then( m => m.EnviarSmsPageModule)
   }
 
 ];

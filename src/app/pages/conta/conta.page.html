@@ -61,7 +61,7 @@
 
   <!--Seção dos inputs-->
     <div class="divInput">
-      <ion-row class="mRow">
+      <ion-row class="mRow" (click)="changePassword()">
         <ion-col>
           <section class="sectInput">
             Trocar senha
@@ -74,7 +74,7 @@
         </ion-col>
       </ion-row>
 
-      <ion-row class="sectInput2">
+      <ion-row class="sectInput2" (click)="changeNumber()">
         <ion-col size="8">
           <section class="aliCel">
             Mudar número de celular

@@ -25,5 +25,14 @@ export class ContaPage {
       this.router.navigateByUrl('/tabs/tab1')
     }
 
+    changePassword(){
+      this.router.navigateByUrl('/altercao-senha')
+    }
+
+    changeNumber(){
+      this.router.navigateByUrl('/enviar-sms')
+
+    }
+
 
 }

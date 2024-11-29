@@ -7,15 +7,24 @@ import { MenuController } from '@ionic/angular';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page implements OnInit {
+export class Tab1Page {
   username = "Tyrell Wellick";
 
-  ngOnInit(){
-    this.menu.open();
-  }
+
   constructor(private menu: MenuController,
     private router:Router
   ) {}
+
+  produtos: any = {
+    "id" : "",
+    "nmProdutos": " Melancia",
+    "qtd_estoque": 0,
+    "url_img": "../../../assets/melanciaTeste.png",
+    "descricao":" Aproximadamente 3kg",
+    "preco" : "R$12,99"
+
+  }
+
 
   dismissSideMenu(){
     this.menu.close();
@@ -29,5 +38,17 @@ export class Tab1Page implements OnInit {
   }
   accountSettings(){
     this.router.navigateByUrl('/conta');
+  }
+
+  addProduct(){
+    this.produtos.qtd_estoque = this.produtos.qtd_estoque + 1;
+  }
+
+  removeProduct(){
+
+    if(this.produtos.qtd_estoque !== 0)
+    {
+      this.produtos.qtd_estoque = this.produtos.qtd_estoque -1;
+    }
   }
 }

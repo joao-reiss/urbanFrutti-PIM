@@ -134,6 +134,7 @@ ion-item{
 ion-textarea{
   height: 150px;
   -placeholder-style: italic;
+  outline: none;
  }
 
  ion-textarea::placeholder {

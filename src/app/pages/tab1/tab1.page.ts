@@ -15,6 +15,7 @@ export class Tab1Page implements OnInit {
     this.params.data$.subscribe(data =>{
       this.produtos.qtd_estoque = data;
     });
+
   }
 
   constructor(private menu: MenuController,
@@ -33,7 +34,7 @@ export class Tab1Page implements OnInit {
   }
 
 
-  dismissSideMenu(){
+  async dismissSideMenu(){
     this.menu.close();
   }
   logOut(){

@@ -1,8 +1,8 @@
 .logoAli{
 
-  align-items: end;
+  align-items: center;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   ion-img{
     max-width: 150px;
     max-height: 150px;
@@ -204,4 +204,39 @@ p{
 .aliBtn{
   text-align: center;
   margin-top: 20px;
+}
+
+#titlePage{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#aliTextProducts{
+  margin-top: 250px;
+  text-align: center;
+}
+
+#noProducts{
+  font-size: 1.2em;
+  color:black;
+}
+
+.btnPagar{
+  font-weight: bold;
+  font-size: 1.2em;
+  width:300px;
+  height: 55px;
+  text-transform: none;
+  --border-radius: 5px;
+  outline: 0;
+  --border-radius: 5px;
+  --background: #3BB1F5;
+}
+
+.btnRow{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
 }

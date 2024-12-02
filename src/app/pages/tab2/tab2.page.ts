@@ -32,20 +32,6 @@ export class Tab2Page implements OnInit{
     }
 
 
-    dismissSideMenu(){
-      this.menu.close();
-    }
-    logOut(){
-      this.router.navigateByUrl('/home');
-      this.menu.close();
-    }
-    contactUs(){
-      this.router.navigateByUrl('/suporte');
-    }
-    accountSettings(){
-      this.router.navigateByUrl('/conta');
-    }
-
       addProduct(){
       this.produtos.qtd_estoque = this.produtos.qtd_estoque + 1;
       this.params.setDataSub(this.produtos.qtd_estoque);
@@ -58,5 +44,9 @@ export class Tab2Page implements OnInit{
         this.produtos.qtd_estoque = this.produtos.qtd_estoque -1;
         this.params.setDataSub(this.produtos.qtd_estoque);
       }
+    }
+
+    goToPayment(){
+      this.router.navigateByUrl('/forma-pagamento');
     }
 }

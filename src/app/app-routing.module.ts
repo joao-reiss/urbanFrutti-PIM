@@ -47,6 +47,10 @@ const routes: Routes = [
   {
     path: 'confirmar-novo-numero',
     loadChildren: () => import('./pages/confirmar-novo-numero/confirmar-novo-numero.module').then( m => m.ConfirmarNovoNumeroPageModule)
+  },
+  {
+    path: 'forma-pagamento',
+    loadChildren: () => import('./pages/forma-pagamento/forma-pagamento.module').then( m => m.FormaPagamentoPageModule)
   }
 
 ];

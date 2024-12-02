@@ -1,7 +1,6 @@
 import { Router } from '@angular/router';
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import '../../services/fakeData.json';
 
 @Component({
   selector: 'app-home',

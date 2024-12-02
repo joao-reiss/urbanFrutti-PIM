@@ -1,0 +1,207 @@
+.logoAli{
+
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  ion-img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+.ion-padding{
+  --background: #D9D9D9;
+}
+ion-menu-button{
+  color: black;
+}
+
+ion-toolbar{
+  padding: 7px;
+  --background: #CACACA;
+}
+
+.sectImg{
+  background-color:white;
+  object-fit:cover;
+  height: 100px;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 100px;
+  min-height: 100px;
+
+}
+
+.userImg{
+  padding: 25px;
+  max-width: 105px;
+  max-height:105px;
+
+}
+
+.close{
+  text-align: start;
+  max-width: 45px;
+  min-width: 45px;
+  max-height: 45px;
+  min-height: 45px;
+}
+
+.btn{
+
+}
+.alignment{
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+ion-text{
+  text-align: center;
+}
+.iconMenu{
+  width: 25px;
+  height: 25px;
+  filter: grayscale(10);
+  color: beige !important;
+}
+
+.line1{
+padding-top: 20px;
+padding-bottom: 20px;
+ border-bottom: 4px solid #CCCCCC;
+ border-top:4px solid #CCCCCC;
+}
+
+
+.line2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+   border-bottom: 4px solid #CCCCCC;
+  }
+.btnAccount{
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 250px;
+  text-decoration: none;
+  --border-radius: none;
+}
+
+
+.btnDisconnect{
+  color:black;
+  font-size: 1.2em;
+  --background: grey;
+  --border-radius: none;
+  font-weight: bold;
+  width: 250px;
+}
+
+.aliLogOut{
+  margin-top: 120%;
+}
+
+.username{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.divMenuBtn{
+  border-radius: 4px;
+  padding: 2px;
+  background-color: #D9D9D9;
+}
+
+ion-searchbar{
+  --icon-color: black;
+  --placeholder-font-style: italic;
+  --background: white;
+  --border-radius: 4px;
+  --box-shadow: black 0px 0.5px 0.5px, black 0px 0px 0px 0.5px;
+}
+
+ion-content{
+  --background: #D9D9D9;
+}
+
+ion-card{
+  margin-left: -20px;
+  width: 100%;
+  height: 80%;
+  background-color: #D9D9D9;
+  box-shadow: none;
+  padding:10px;
+  margin-bottom: -10px;
+}
+.bdBottom{
+  margin-top: -150px;
+  width: 100%;
+  border-bottom: #CCCCCC 4px solid;
+}
+
+ion-button{
+  font-size: 1em;
+  font-weight: bold;
+  width:10px;
+  height: 5px;
+  --vertical-align: middle;
+  --background: #3BB1F5;
+  --border-radius: 2px;
+  --padding-start: 15px;
+  --padding-top: 10px;
+  --padding-end: 15px;
+  --padding-bottom: 10px;
+}
+
+.title{
+  font-size: 1.1em;
+  color: black;
+}
+
+.price{
+  font-weight: bold;
+  color:black;
+  font-size: 1.5em;
+}
+
+.description{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+
+.imgProduct{
+
+  max-width: 90px;
+  max-height: 90px;
+}
+.aliImg{
+  text-align: start;
+  align-items: start;
+  justify-content: start;
+}
+
+p{
+  color: black;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.content{
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.aliQtd{
+  margin-right: -15px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aliBtn{
+  text-align: center;
+  margin-top: 20px;
+}

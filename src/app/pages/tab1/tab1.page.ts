@@ -1,18 +1,25 @@
+import { ParamsService } from './../../services/params.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { MenuController } from '@ionic/angular';
+import { MenuController, NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {
+export class Tab1Page implements OnInit {
   username = "Tyrell Wellick";
-
+  data: any;
+  ngOnInit() {
+    this.params.data$.subscribe(data =>{
+      this.produtos.qtd_estoque = data;
+    });
+  }
 
   constructor(private menu: MenuController,
-    private router:Router
+    private router:Router,
+    private params:ParamsService
   ) {}
 
   produtos: any = {
@@ -42,6 +49,10 @@ export class Tab1Page {
 
   addProduct(){
     this.produtos.qtd_estoque = this.produtos.qtd_estoque + 1;
+    this.params.setDataSub(this.produtos.qtd_estoque);
+
+
+
   }
 
   removeProduct(){
@@ -49,6 +60,7 @@ export class Tab1Page {
     if(this.produtos.qtd_estoque !== 0)
     {
       this.produtos.qtd_estoque = this.produtos.qtd_estoque -1;
+      this.params.setDataSub(this.produtos.qtd_estoque);
     }
   }
 }

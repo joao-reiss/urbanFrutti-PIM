@@ -1,13 +1,73 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>pix</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-grid>
+      <div class="head">
+      <ion-row>
+        <ion-col>
+          <div class="arrow" (click)="return()">
+            <ion-img
+            src="../../../assets/arrow-right.png" alt="arrow-left"
+            ></ion-img>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="logoAli">
+            <ion-img class="logo"
+            src="../../assets/logo-fazenda.png"
+            alt="logo-fazenda">
+          </ion-img>
+        </div>
+        </ion-col>
+      </ion-row>
+      </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">pix</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+      <ion-row>
+        <ion-col>
+          <ion-text>
+            <h1 class="pageTitle">Método selecionado:</h1>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="7">
+          <ion-text class="metodPay">
+            <h4 class="pageSub">PIX</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-text class="centerText">
+            <h4 class="text">Faça o pagamento no código abaixo:</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-text class="centerText">
+            <h4 class="codigo" (click)="copyCode()">Copiar código: {{codigo}}</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-text class="centerText">
+            <h4 class="text2">Após a confirmação do pagamento, sua encomenda estará pronta para a entrega!</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row">
+            <ion-button class="btnCreate" (click)="returnToTab()">Voltar</ion-button>
+            </div>
+        </ion-col>
+      </ion-row>
+
+
+  </ion-grid>
+  </ion-content>

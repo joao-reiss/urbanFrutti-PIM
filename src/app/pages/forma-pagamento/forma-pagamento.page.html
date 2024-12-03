@@ -33,10 +33,34 @@
       <ion-row>
         <ion-col>
           <div class="btn_row">
-          <ion-button class="btnSend">
+          <ion-button class="btnSend" (click)="goToCreditCard()">
             <div class="aliImg1"><ion-icon name="card-outline"></ion-icon></div>
-            <label>Cartão de Crédito</label>
+            <ion-text class="btnTextAli"><h5>Cartão de Crédito</h5></ion-text>
             <div class="aliImg2"><ion-icon name="chevron-forward"></ion-icon></div>
+          </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row2">
+          <ion-button class="btnSend" (click)="goToBoleto()">
+            <div class="aliImg3"><ion-img class="imgBoleto" src="../../../assets/boleto.png"></ion-img></div>
+            <ion-text class="btnTextAli"><h5>Boleto</h5></ion-text>
+            <div class="aliImg4"><ion-icon name="chevron-forward"></ion-icon></div>
+          </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row2">
+          <ion-button class="btnSend" (click)="goToPix()">
+            <div class="aliImg5"><ion-img class="imgPix" src="../../../assets/pix.png"></ion-img></div>
+            <ion-text class="btnTextAli"><h5>PIX</h5></ion-text>
+            <div class="aliImg6"><ion-icon name="chevron-forward"></ion-icon></div>
           </ion-button>
           </div>
         </ion-col>

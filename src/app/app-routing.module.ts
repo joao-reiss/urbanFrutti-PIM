@@ -51,6 +51,18 @@ const routes: Routes = [
   {
     path: 'forma-pagamento',
     loadChildren: () => import('./pages/forma-pagamento/forma-pagamento.module').then( m => m.FormaPagamentoPageModule)
+  },
+  {
+    path: 'cartao-de-credito',
+    loadChildren: () => import('./pages/cartao-de-credito/cartao-de-credito.module').then( m => m.CartaoDeCreditoPageModule)
+  },
+  {
+    path: 'boleto',
+    loadChildren: () => import('./pages/boleto/boleto.module').then( m => m.BoletoPageModule)
+  },
+  {
+    path: 'pix',
+    loadChildren: () => import('./pages/pix/pix.module').then( m => m.PixPageModule)
   }
 
 ];

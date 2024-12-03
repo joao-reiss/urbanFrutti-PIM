@@ -81,7 +81,74 @@ ion-item{
   --background:#3BB1F5;;
   font-weight: bold;
   font-size: 1.2em;
-  width:300px;
+  width:350px;
+  height: 55px;
+  --border-radius: 5px;
+  text-decoration: none;
+  outline: 0;
+  --padding-start: 10px;
+  --padding-end:10px;
+}
+
+ }
+
+ .aliImg1{
+  margin-right: 40px;
+ }
+ .aliImg2{
+  margin-left: 40px;
+ }
+
+ ion-icon{
+  font-size: 1.5em;
+ }
+ .btnTextAli{
+  margin-top: -10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  h5{
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+ }
+
+ .imgPix{
+  max-width: 25px;
+  max-height: 25px;
+  filter: invert(100%);
+ }
+
+ .imgBoleto{
+  max-width: 55px;
+  max-height: 55px;
+ }
+
+ .aliImg3{
+  margin-right: 90px;
+ }
+ .aliImg4{
+  margin-left: 90px;
+ }
+
+ .aliImg5{
+  margin-right: 90px;
+ }
+ .aliImg6{
+  margin-left: 90px;
+ }
+
+ .btn_row2{
+  margin-top: 20px;
+  text-align: center;
+ ion-button{
+  --background:#3BB1F5;;
+  font-weight: bold;
+  font-size: 1.2em;
+  width:350px;
   height: 55px;
   --border-radius: 5px;
   text-decoration: none;

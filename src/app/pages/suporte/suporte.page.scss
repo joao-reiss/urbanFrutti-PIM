@@ -132,7 +132,9 @@ ion-item{
 }
 
 ion-textarea{
+  --highlight-color-focused: transparent;
   height: 150px;
+  border: none;
   -placeholder-style: italic;
   outline: none;
  }

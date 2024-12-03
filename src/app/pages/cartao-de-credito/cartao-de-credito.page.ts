@@ -1,15 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cartao-de-credito',
   templateUrl: './cartao-de-credito.page.html',
   styleUrls: ['./cartao-de-credito.page.scss'],
 })
-export class CartaoDeCreditoPage implements OnInit {
+export class CartaoDeCreditoPage {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
-  ngOnInit() {
+  return()
+  {
+    this.router.navigateByUrl('/forma-pagamento');
+  }
+
+  returnToTab()
+  {
+    this.router.navigateByUrl('/tabs/tab1');
   }
 
 }

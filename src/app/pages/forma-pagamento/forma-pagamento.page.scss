@@ -80,11 +80,12 @@ ion-item{
  ion-button{
   --background:#3BB1F5;;
   font-weight: bold;
-  font-size: 1.2em;
-  width:350px;
+  font-size: 1em;
+  width:300px;
   height: 55px;
   --border-radius: 5px;
   text-decoration: none;
+  text-transform: none;
   outline: 0;
   --padding-start: 10px;
   --padding-end:10px;
@@ -123,15 +124,15 @@ ion-item{
  }
 
  .imgBoleto{
-  max-width: 55px;
-  max-height: 55px;
+  max-width: 90px;
+  max-height: 90px;
  }
 
  .aliImg3{
-  margin-right: 90px;
+  margin-right: 50px;
  }
  .aliImg4{
-  margin-left: 90px;
+  margin-left: 70px;
  }
 
  .aliImg5{
@@ -147,14 +148,15 @@ ion-item{
  ion-button{
   --background:#3BB1F5;;
   font-weight: bold;
-  font-size: 1.2em;
-  width:350px;
+  font-size: 1em;
+  width:300px;
   height: 55px;
   --border-radius: 5px;
   text-decoration: none;
+  text-transform: none;
   outline: 0;
-  --padding-start: 10px;
-  --padding-end:10px;
+  --padding-start: 5px;
+  --padding-end:5px;
 }
 
  }

@@ -1,0 +1,156 @@
+ion-content{
+  --background:#D9D9D9;
+}
+
+.logoAli
+{
+  align-items: end;
+  display: flex;
+  justify-content: end;
+}
+
+.logo{
+  max-width: 320px;
+}
+
+.arrow
+{
+  margin: 10px 10px;
+  transform: scaleX(-1);
+  max-width: 30px;
+}
+
+.head{
+  background-color: #CACACA;
+}
+
+.inputAli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.btn_row{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+ ion-button{
+  --background: #3BB1F5;
+  font-weight: bold;
+  font-size: 1.2em;
+  width:300px;
+  height: 55px;
+  --border-radius: 5px;
+  text-decoration: none;
+  text-transform: none;
+  outline: 0;
+  --padding-start: 10px;
+  --padding-end:10px;
+}
+
+ }
+
+ .metodPay{
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ }
+
+.centerText{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.text{
+  font-size: 1.3em;
+}
+
+.text2{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.inputAli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-input{
+  --background:white;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+ion-item{
+  width: 300px;
+  border: solid black 1.5px;
+  min-height:30px ;
+  max-height: 300px;
+  outline: none !important;
+  border-radius: 5px;
+
+}
+
+.tituloCampo{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.alinhamentoCampoTitulo{
+  margin-top: -15px;
+  text-align: center;
+  margin-bottom: -15px;
+  margin-left: -15px;
+
+}
+
+.minSize{
+  width: 100px;
+  border: solid black 1.5px;
+  min-height:30px ;
+  max-height: 300px;
+  outline: none !important;
+  border-radius: 5px;
+  ion-input{
+    --background:white;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+  }
+
+}
+
+.minSize2{
+  width: 150px;
+  border: solid black 1.5px;
+  max-height: 100px;
+  outline: none !important;
+  border-radius: 5px;
+  padding-top: -10px;
+  ion-select{
+    --height: 30px;
+    --pading-start:-40px
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+  }
+
+}
+
+.aPageTitle{
+  margin-top: 50px;
+  margin-bottom: -20px;
+
+}
+
+.pageTitle{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}

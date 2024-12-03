@@ -1,13 +1,165 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>cartao-de-credito</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-grid>
+      <div class="head">
+      <ion-row>
+        <ion-col>
+          <div class="arrow" (click)="return()">
+            <ion-img
+            src="../../../assets/arrow-right.png" alt="arrow-left"
+            ></ion-img>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="logoAli">
+            <ion-img class="logo"
+            src="../../assets/logo-fazenda.png"
+            alt="logo-fazenda">
+          </ion-img>
+        </div>
+        </ion-col>
+      </ion-row>
+      </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">cartao-de-credito</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+      <ion-row>
+        <ion-col size="10">
+          <div class="aPageTitle">
+            <h1 class="pageTitle">Método selecionado:</h1>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="8">
+          <ion-text class="metodPay">
+            <h4 class="pageSub">Cartão de Crédito</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+
+         <!--Input nome-->
+         <ion-row>
+          <ion-col size="10">
+            <div class="alinhamentoCampoTitulo">
+              <ion-text>
+                <h1 class="tituloCampo">
+                 Nome (como está no cartão):
+                </h1>
+              </ion-text>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <!--Input de confirmação-->
+        <ion-row>
+          <ion-col>
+            <div class="inputAli">
+            <ion-item lines="none">
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <!--Input nome-->
+        <ion-row>
+          <ion-col size="8">
+            <div class="alinhamentoCampoTitulo">
+              <ion-text>
+                <h1 class="tituloCampo">
+                 Número do cartão:
+                </h1>
+              </ion-text>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <!--Input de confirmação-->
+        <ion-row>
+          <ion-col>
+            <div class="inputAli">
+            <ion-item lines="none">
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="6">
+            <div class="alinhamentoCampoTitulo">
+              <ion-text>
+                <h1 class="tituloCampo">
+                 Validade:
+                </h1>
+              </ion-text>
+            </div>
+          </ion-col>
+
+          <ion-col size="5">
+            <div class="alinhamentoCampoTitulo">
+              <ion-text>
+                <h1 class="tituloCampo">
+                 CVV:
+                </h1>
+              </ion-text>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <div class="inputAli">
+            <ion-item class ="minSize" lines="none">
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            </div>
+          </ion-col>
+
+          <ion-col>
+            <div class="inputAli">
+            <ion-item  class ="minSize" lines="none">
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+        <ion-col size="8">
+          <div class="alinhamentoCampoTitulo">
+            <ion-text>
+              <h1 class="tituloCampo">
+               Bandeira do cartão:
+              </h1>
+            </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="7.5">
+          <div class="inputAli">
+              <ion-item class="minSize2">
+                <ion-select label="" value="">
+                  <ion-select-option value="apple">Mastercard</ion-select-option>
+                  <ion-select-option value="banana">VISA</ion-select-option>
+                </ion-select>
+              </ion-item>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+
+
+      <ion-row>
+        <ion-col>
+          <div class="btn_row">
+            <ion-button class="btnCreate" (click)="returnToTab()">Confirmar</ion-button>
+            </div>
+        </ion-col>
+      </ion-row>
+
+
+  </ion-grid>
+  </ion-content>

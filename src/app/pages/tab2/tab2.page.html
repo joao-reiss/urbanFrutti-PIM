@@ -19,7 +19,7 @@
         </ion-col>
       </ion-row>
 
-      <div *ngIf="produtos.qtd_estoque!=0">
+      <div *ngIf="produtos.qtd_estoque!==0">
 
             <ion-row>
               <ion-col>
@@ -84,7 +84,7 @@
           </div>
 
 
-        <div *ngIf="produtos.qtd_estoque==0">
+        <div *ngIf="produtos.qtd_estoque===0">
           <ion-row>
             <ion-col>
               <ion-label>

@@ -12,6 +12,7 @@ ion-content{
 .txtAli{
 
   text-align: center;
+  margin-bottom: 40px;
   h1{
     font-size: 1.5em;
     font-weight: bolder;
@@ -75,6 +76,7 @@ ion-item{
 }
 
 .btn_row{
+  margin-top: 40px;
   text-align: center;
  ion-button{
   font-weight: bold;
@@ -86,9 +88,28 @@ ion-item{
   text-decoration: none;
   --color-focused:none;
   outline: 0;
-
+  }
 
  }
+
+
+ .btn_row2{
+  text-align: center;
+ ion-button{
+  font-weight: bold;
+  font-size: 1.2em;
+  width:300px;
+  height: 55px;
+  text-transform: none;
+  --border-radius: 5px;
+  text-decoration: none;
+  --color-focused:none;
+  outline: 0;
+  }
+
+ }
+
+
  .btnSend{
   --border-radius: 5px;
   --background: #3BB1F5;
@@ -100,7 +121,7 @@ ion-item{
   color: black;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
-}
+
 
 .subR{
   font-size: 1.1em;

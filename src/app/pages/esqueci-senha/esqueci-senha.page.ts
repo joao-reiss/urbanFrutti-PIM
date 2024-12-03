@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './esqueci-senha.page.html',
   styleUrls: ['./esqueci-senha.page.scss'],
 })
-export class EsqueciSenhaPage implements OnInit {
+export class EsqueciSenhaPage{
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
+  btnSend(){
+    this.router.navigateByUrl('/esqueci-senha2');
   }
 
 }

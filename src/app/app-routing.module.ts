@@ -63,6 +63,10 @@ const routes: Routes = [
   {
     path: 'pix',
     loadChildren: () => import('./pages/pix/pix.module').then( m => m.PixPageModule)
+  },
+  {
+    path: 'esqueci-senha2',
+    loadChildren: () => import('./pages/esqueci-senha2/esqueci-senha2.module').then( m => m.EsqueciSenha2PageModule)
   }
 
 ];
